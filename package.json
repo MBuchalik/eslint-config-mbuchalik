@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-mbuchalik",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Martin Buchalik",
+  "description": "An opinionated ESLint config",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "opinionated",
+    "prettier"
+  ],
+  "main": "index.js",
+  "files": [
+    ".prettierrc.js",
+    "react.js"
+  ],
+  "scripts": {
+    "lint": "prettier --check **/*.{js,json,md}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBuchalik/eslint-config-mbuchalik.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MBuchalik/eslint-config-mbuchalik/issues"
+  },
+  "homepage": "https://github.com/MBuchalik/eslint-config-mbuchalik#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.0.0"
+  }
+}
