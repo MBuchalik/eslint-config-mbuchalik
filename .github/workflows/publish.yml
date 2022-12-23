@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
+          # For some reason, it is necessary to explicitly set a registry URL so that authentication works properly.
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
