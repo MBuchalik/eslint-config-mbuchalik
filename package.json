@@ -16,7 +16,7 @@
     "react.js"
   ],
   "scripts": {
-    "lint": "prettier --check **/*.{js,json,md}"
+    "lint": "prettier --check **/*.{js,json,md,yml}"
   },
   "repository": {
     "type": "git",
