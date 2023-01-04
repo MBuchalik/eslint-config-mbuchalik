@@ -65,6 +65,28 @@ module.exports = {
 };
 ```
 
+Tip: If you want to lint a specific directory only (e.g. only a `src/` directory), add the following:
+
+```diff
+module.exports = {
+  root: true,
+  parserOptions: {
+    project: './tsconfig.json',
+    tsconfigRootDir: __dirname,
+  },
+
++ // Ignore all folders except for '/src'.
++ ignorePatterns: ['/*', '!/src'],
+
+  overrides: [
+    {
+      files: ['*.ts'],
+      extends: ['eslint-config-mbuchalik'],
+    },
+  ],
+};
+```
+
 ### 4. Update your `tsconfig.json` file
 
 Make sure that your `tsconfig.json` file contains the following settings:
