@@ -33,6 +33,7 @@
     "eslint-config-prettier": "^8.0.0",
     "eslint-config-react-app": "^7.0.0",
     "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-node-imports": "^1.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.0.0"
   }

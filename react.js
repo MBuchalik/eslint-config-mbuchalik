@@ -5,8 +5,12 @@ module.exports = {
 
   extends: [...indexConfig.extends, 'react-app', 'plugin:react/recommended'],
 
+  plugins: ['node-imports'],
+
   rules: {
     ...indexConfig.rules,
+
+    'node-imports/no-node-import': 'error',
 
     'react/button-has-type': 'error',
     'react/destructuring-assignment': ['warn', 'never'],
