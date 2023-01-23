@@ -16,7 +16,7 @@ The following steps need to be performed in order to use this package:
 First, install this package:
 
 ```
-npm install eslint-config-mbuchalik
+npm install --save-dev eslint-config-mbuchalik
 ```
 
 ### 2. Create the `.prettierrc.js` file
