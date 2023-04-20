@@ -1,3 +1,9 @@
+## 1.2.1 (2023-04-20)
+
+### Misc
+
+- The package is now published using the `--provenance` flag.
+
 ## 1.2.0 (2023-04-03)
 
 ### Changed
