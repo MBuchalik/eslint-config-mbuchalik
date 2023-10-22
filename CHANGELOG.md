@@ -1,3 +1,13 @@
+## 1.2.2 (2023-10-22)
+
+### Changed
+
+- The recommended `settings.json` is now much shorter and works with the latest version of VSCode.
+
+### Misc
+
+- Updated npm dependencies.
+
 ## 1.2.1 (2023-04-20)
 
 ### Misc
